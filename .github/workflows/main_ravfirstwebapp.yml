@@ -31,5 +31,5 @@ jobs:
       with:
         app-name: 'ravfirstwebapp'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_34974f5bb2064206bbc9408452257208 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_f07ad56568ed4ea2b0b6bd236c723e79 }}
         package: ${{env.DOTNET_ROOT}}/myapp 
